@@ -56,11 +56,11 @@ const menus = ref([
   },
   {
     name: t('admin.menu.send'),
-    path: '/#/send',
+    path: '/send',
   },
   {
     name: t('admin.menu.receive'),
-    path: '/#/',
+    path: '/',
   },
 ]);
 const refreshLoginStatus = () => {

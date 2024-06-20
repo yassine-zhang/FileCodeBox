@@ -37,7 +37,7 @@ DEFAULT_CONFIG = {
     'onedrive_proxy': 0,
     'admin_token': 'FileCodeBox2023',
     'openUpload': 1,
-    'uploadSize': 1024 * 1024 * 10,
+    'uploadSize': 1024 * 1024 * 50,
     'expireStyle': ['day', 'hour', 'minute', 'forever', 'count'],
     'uploadMinute': 1,
     'opacity': 0.9,
