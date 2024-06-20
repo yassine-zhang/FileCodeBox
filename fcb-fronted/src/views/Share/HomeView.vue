@@ -67,8 +67,10 @@ const listenInput = (num: number) => {
     code.value += num
   }
 };
-const name = atob('RmlsZUNvZGVCb3ggVjIuMQ==');
-const url = atob('aHR0cHM6Ly9naXRodWIuY29tL3Zhc3RzYS9GaWxlQ29kZUJveA==');
+// const name = atob('RmlsZUNvZGVCb3ggVjIuMQ==');
+// const url = atob('aHR0cHM6Ly9naXRodWIuY29tL3Zhc3RzYS9GaWxlQ29kZUJveA==');
+const name = "鲁ICP备2024099705号-1";
+const url = "https://beian.miit.gov.cn";
 </script>
 
 <template>

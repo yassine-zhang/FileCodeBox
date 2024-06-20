@@ -3,7 +3,10 @@
 <div align="center">
 <h1>文件快递柜-轻量</h1>
 <p><em>匿名口令分享文本，文件，像拿快递一样取文件</em></p>
-<p>交流Q群：739673698</p>
+<p>历史记录模式：见 <a href="https://github.com/yassine-zhang/FileCodeBox/blob/master/fcb-fronted/src/router/index.ts#L4" >src/router/index.js 第4行</a></p>
+<p>修改历史模式为HTML5会照成路由只能通过index.html进入，我们仍然需要修改路由的处理方式，见 <a href="https://github.com/yassine-zhang/FileCodeBox/blob/master/main.py#L63" >main.py 第63行</a></p>
+<p>备案号：见 <a href="https://github.com/yassine-zhang/FileCodeBox/blob/master/fcb-fronted/src/views/Share/HomeView.vue#L70~L73" >src/views/Share/HomeView.vue 第70~73行</a></p>
+<p>端口修改：10007、文件：Dockerfile、core/settings.py</p>
 </div>
 
 

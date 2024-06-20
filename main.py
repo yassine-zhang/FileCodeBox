@@ -60,8 +60,7 @@ async def startup_event():
     user_config, created = await KeyValue.get_or_create(key='settings', defaults={'value': DEFAULT_CONFIG})
     settings.user_config = user_config.value
 
-
-@app.get('/')
+@app.get('/{path:path}')
 async def index():
     return HTMLResponse(
         content=open(BASE_DIR / 'fcb-fronted/dist/index.html', 'r', encoding='utf-8').read()
@@ -83,7 +82,6 @@ async def get_config():
         'notify_title': settings.notify_title,
         'notify_content': settings.notify_content,
     })
-
 
 if __name__ == '__main__':
     import uvicorn
